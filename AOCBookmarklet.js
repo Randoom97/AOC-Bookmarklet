@@ -37,6 +37,7 @@ javascript: (function () {
 
         const starOneDiv = document.createElement('div');
         starOneDiv.style.width = '100%';
+        starOneDiv.style.padding = '0 16px';
         starOneDiv.appendChild(document.createTextNode('First star on day ' + dayIndex));
 
         let members = day1[dayIndex].sort((a, b) => a.time - b.time);
@@ -46,6 +47,7 @@ javascript: (function () {
 
         const starTwoDiv = document.createElement('div');
         starTwoDiv.style.width = '100%';
+        starTwoDiv.style.padding = '0 16px';
         starTwoDiv.appendChild(document.createTextNode('Second star on day ' + dayIndex));
 
         rank = 1;
